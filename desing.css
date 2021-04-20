@@ -1,0 +1,68 @@
+body{
+    text-align:center;
+}
+.profile{
+    border-radius: 50%;
+    width: 175px;
+    margin-bottom: 50px;
+}
+#name{
+    font-size: 30px;
+    font-family: cursive;
+    line-height: 1.2;
+}
+.line{
+    height: 6px;
+    background-color: #000000;
+    width: 70px;
+    margin: 8px auto;
+}
+#welcome{
+    background: linear-gradient(#2cd4d1 0%, #b82cd4 100%);
+    z-index: 9;
+}
+p{
+    max-width: 450px;
+    font-size: 20px;
+    margin: 25px auto;
+}
+.menu{
+    list-style: none;
+    position:fixed;
+    top:0px;
+    cursor: pointer;
+    font-family: 'Hachi Maru Pop', cursive;
+    z-index: 10;
+    width:100%;
+    background:white;
+    margin-top:0px;
+}
+.links{
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline;
+}
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: darkblue;
+    text-shadow: 2px 2px purple;
+}
+#Writings a{
+    text-shadow: none !important;
+}
+.contact_1{
+    background-color: brown;
+}
+.contact_1 a{
+    text-shadow: none !important;
+    color: #00ff26;
+}
+.contact_1 h3{
+    display:inline;
+}
